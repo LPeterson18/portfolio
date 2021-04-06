@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:wght@600&display=swap');
+
+h1 {
+font-family: Montserrat, Helvetica, Arial, sans-serif;
+font-size: 5vw;
+font-style: normal;
+font-weight: bold;
+letter-spacing: -6.5px;
+line-height: 5vw;
+text-transform: none;
+color: #2A292B;
+}
+body {
+font-family: Esteban, Georgia, 'Times New Roman', serif;
+font-size: 26px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 35.0999984741211px;
+text-transform: none;
+color: #2A292B;
+}
+.content-2 {
+font-family: Esteban, Georgia, 'Times New Roman', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-transform: none;
+color: #2A292B;
+}
+.content-3 {
+font-family: Esteban, Georgia, 'Times New Roman', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-transform: none;
+color: #2A292B;
+}
+.content-4 {
+font-family: Esteban, Georgia, 'Times New Roman', serif;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+letter-spacing: normal;
+line-height: 20px;
+text-transform: none;
+color: #2A292B;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 18vw;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: -6.5px;
+  line-height: 18vw;
+  text-transform: none;
+  color: #2A292B;
+  }
+}

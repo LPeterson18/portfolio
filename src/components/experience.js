@@ -1,34 +1,47 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import Profile from '../pictures/p1.JPG'
 import './experience.css'
+import { Document, Page, pdfjs} from 'react-pdf';
 
+import resume from "../documents/Alexander_Peterson_Resume.pdf";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 class Experience extends Component{
+  state = {
+          file: resume,
+          numPages: null,
+          pageNumber: 1,
+      }
 
+      onDocumentLoadSuccess = ({ numPages }) => {
+          this.setState({ numPages });
+      }
 
   render(){
+    const { file, pageNumber } = this.state;
     return(
       <>
       <section id="experience">
       <div className='experiencebox'>
       <br></br>
       <br></br>
-      <br></br>
       <Container fluid>
-        <Row className='justify-content-md-center'>
-        <h1>Experience</h1>
+        <Row className='justify-content-sm-center'>
+          <h1>Experience</h1>
         </Row>
-        <Row className="justify-content-md-center">
-          <Col  xs lg="10">
-            <p>
-              In tincidunt aliquet lorem tempor euismod. Pellentesque vel velit scelerisque est pretium gravida. In fermentum eleifend lacus at egestas. Maecenas ultricies nisi at scelerisque auctor. Etiam mi justo, sodales id fermentum eget, pulvinar ac urna. Maecenas at diam sollicitudin, scelerisque mauris ut, scelerisque dui. Cras placerat viverra felis. Praesent vitae auctor orci, sit amet tincidunt risus. Aenean ac blandit mauris. Nullam vitae finibus eros. Donec sit amet dui vitae tortor convallis euismod id ornare diam. Aenean in suscipit turpis. Nunc pulvinar laoreet augue ut posuere.
-            </p>
-          </Col>
+        <br></br>
+        <Row className='justify-content-sm-center'>
+          <div id="ResumeContainer">
+              <Document className={"PDFDocument"} file={file} onLoadSuccess={this.onDocumentLoadSuccess}>
+                  <Page className={"PDFPage PDFPageOne"} pageNumber={pageNumber} renderTextLayer={false} renderInteractiveForms={false} renderAnnotationLayer={false}/>
+              </Document>
+          </div>
+        </Row>
+        <Row className='justify-content-sm-center'>
+          <a href='https://github.com/LPeterson18/resume/raw/main/Alexander_Peterson_Resume.pdf'>Download</a>
         </Row>
       </Container>
       </div>

@@ -1,17 +1,11 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Cards from './cards'
-import Cards2 from './cards2'
-import ListGroup from 'react-bootstrap/ListGroup'
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
-import TabContainer from 'react-bootstrap/TabContainer'
-import TabContent from 'react-bootstrap/TabContent'
-import TabPane from 'react-bootstrap/TabPane'
-
-
+import { Container, Row, Col, ListGroup, Tab, Tabs, TabContainer, TabContent, TabPane} from 'react-bootstrap'
+import './projects.css'
+import Cards from './cards/cards'
+import Cards2 from './cards/cards2'
+import Cards3 from './cards/cards3'
+import Cards4 from './cards/cards4'
+import Cards5 from './cards/cards5'
 
 class Projects extends Component{
 
@@ -22,9 +16,9 @@ class Projects extends Component{
       <section id="projects">
       <br></br>
       <br></br>
-      <br></br>
-      <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
-      <Row className="justify-content-md-center">
+      <Container fluid>
+      <Tab.Container id="projects" defaultActiveKey="#link1">
+      <Row className="justify-content-sm-center">
         <h1>Projects</h1>
       </Row>
         <Row className="justify-content-lg-center">
@@ -35,20 +29,20 @@ class Projects extends Component{
                 Jungle Cat Tic-Tac-Toe
               </ListGroup.Item>
               <ListGroup.Item action variant="dark" action href="#link2">
-                Second Project
+                Pig Latin Translator
               </ListGroup.Item>
               <ListGroup.Item action variant="dark" action href="#link3">
-                Second Project
+                Blog App
               </ListGroup.Item>
               <ListGroup.Item action variant="dark" action href="#link4">
-                Second Project
+                Wildlife Tracker
               </ListGroup.Item>
               <ListGroup.Item action variant="dark" action href="#link5">
-                Second Project
+                Cat Tinder
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col sm={6} >
+          <Col sm={6}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <Cards />
@@ -57,18 +51,19 @@ class Projects extends Component{
                 <Cards2 />
               </Tab.Pane>
               <Tab.Pane eventKey="#link3">
-                <Cards2 />
+                <Cards3 />
               </Tab.Pane>
               <Tab.Pane eventKey="#link4">
-                <Cards2 />
+                <Cards4 />
               </Tab.Pane>
               <Tab.Pane eventKey="#link5">
-                <Cards2 />
+                <Cards5 />
               </Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>
       </Tab.Container>
+      </Container>
       </section>
       </>
     )

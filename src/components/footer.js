@@ -1,11 +1,6 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import Profile from '../pictures/p1.JPG'
-
-
 
 class Footer extends Component{
 
@@ -14,7 +9,7 @@ class Footer extends Component{
     return(
       <>
       <Container fluid>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-sm-center">
           <p> Made in San Diego by Lex Peterson</p>
         </Row>
       </Container>
