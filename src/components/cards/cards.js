@@ -18,7 +18,7 @@ class Cards extends Component{
           <Card.Text>
             A jungle cat themed Tic-Tac-Toe game made using React.
           </Card.Text>
-          <Button variant="dark">Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>

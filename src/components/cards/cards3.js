@@ -17,7 +17,7 @@ class Cards3 extends Component{
           <Card.Text>
             Full stack blogging web app with full CRUD functionality. Users can create new blog posts and read, update, and delete old posts.
           </Card.Text>
-          <Button variant="dark">Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>

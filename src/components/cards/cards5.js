@@ -17,7 +17,7 @@ class Cards5 extends Component{
           <Card.Text>
             Full stack, decoupled web app with React front end and Rails backend. Look at, create, and update cat profiles.
           </Card.Text>
-          <Button variant="dark">Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>

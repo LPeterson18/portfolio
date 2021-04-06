@@ -16,24 +16,28 @@ class AboutMe extends Component{
       <br></br>
       <br></br>
       <Container fluid>
-        <Row className="justify-content-sm-center">
-          <h1>About Me</h1>
+        <Row>
+          <Col md={{offset:3}}>
+            <h1>About Me</h1>
+          </Col>
         </Row>
         <Row fluid>
-          <Col>
-          </Col>
           <Col xs={4} md={4} lg={3}>
-            <Image src={Profile} roundedCircle fluid/>
+            <Image src={Profile} fluid/>
           </Col>
-            <Col>
-            </Col>
-        </Row>
-        <Row className="justify-content-sm-center">
-          <Col  xs lg="10">
-            <p>
-              Highly motivated full stack web developer experienced with extensive project background individually and in pair and mob programming teams. Strong analytical mind with ability to use technical knowledge to solve complex problems. Track record of consistently meeting project deadlines under challenging environments. Developed problem solving skills and enthusiasm for finding creative solutions from previous engineering background.
-            </p>
-          </Col>
+          <Col>
+          <p>
+            I'm a full stack web developer experienced with extensive project background individually and in pair and mob programming teams. Previously a mechanical engineer, I now get to apply my problem solving skills to the challenges that arise while programming. I enjoy finding creative and interesting solutions, and am always looking to level up my skills.
+          </p>
+          <h2 style={{fontFamily: 'Montserrat, Helvetica, Arial, sans-serif', fontWeight:"bold"}}>Contact Information</h2>
+          <Row>
+            <ul>
+              <li>lpeterson@chorus.net</li>
+              <li><a href='https://www.linkedin.com/in/lex-peterson/'>LinkedIn</a></li>
+              <li><a href='https://github.com/LPeterson18'>GitHub</a></li>
+            </ul>
+          </Row>
+        </Col>
         </Row>
       </Container>
       </div>

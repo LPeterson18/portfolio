@@ -17,7 +17,7 @@ class Cards4 extends Component{
           <Card.Text>
             API allowing full CRUD functionality on a database containing animal characteristics and sightings.
           </Card.Text>
-          <Button variant="dark">Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>

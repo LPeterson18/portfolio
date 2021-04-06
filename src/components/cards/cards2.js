@@ -17,7 +17,7 @@ class Cards2 extends Component{
           <Card.Text>
             A website built using react that translates a user's input text to pig latin.
           </Card.Text>
-          <Button variant="dark">Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>
