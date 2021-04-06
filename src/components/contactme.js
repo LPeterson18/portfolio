@@ -18,7 +18,7 @@ class ContactMe extends Component{
       <div className="contactmebox">
         <Row className="justify-content-sm-center">
         <Col xs lg="8">
-        <h1 style={{ color:'#FFFFFF' }}>Contact Me:</h1>
+        <h1>Contact Me:</h1>
         <Form>
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>

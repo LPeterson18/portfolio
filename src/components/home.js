@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Image } from  'react-bootstrap'
-import Profile from '../pictures/p1.JPG'
+import { Container, Row } from  'react-bootstrap'
 import './home.css'
 
 class Home extends Component{
