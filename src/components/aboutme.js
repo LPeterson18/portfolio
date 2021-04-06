@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import Profile from '../pictures/p1.JPG'
 import './aboutme.css'
 
@@ -18,9 +15,8 @@ class AboutMe extends Component{
       <div className='aboutmebox'>
       <br></br>
       <br></br>
-      <br></br>
       <Container fluid>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-sm-center">
           <h1>About Me</h1>
         </Row>
         <Row fluid>
@@ -32,10 +28,10 @@ class AboutMe extends Component{
             <Col>
             </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-sm-center">
           <Col  xs lg="10">
             <p>
-              In tincidunt aliquet lorem tempor euismod. Pellentesque vel velit scelerisque est pretium gravida. In fermentum eleifend lacus at egestas. Maecenas ultricies nisi at scelerisque auctor. Etiam mi justo, sodales id fermentum eget, pulvinar ac urna. Maecenas at diam sollicitudin, scelerisque mauris ut, scelerisque dui. Cras placerat viverra felis. Praesent vitae auctor orci, sit amet tincidunt risus. Aenean ac blandit mauris. Nullam vitae finibus eros. Donec sit amet dui vitae tortor convallis euismod id ornare diam. Aenean in suscipit turpis. Nunc pulvinar laoreet augue ut posuere.
+              Highly motivated full stack web developer experienced with extensive project background individually and in pair and mob programming teams. Strong analytical mind with ability to use technical knowledge to solve complex problems. Track record of consistently meeting project deadlines under challenging environments. Developed problem solving skills and enthusiasm for finding creative solutions from previous engineering background.
             </p>
           </Col>
         </Row>

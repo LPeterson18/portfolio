@@ -8,14 +8,10 @@ import TechnicalSkills from './components/technicalskills'
 import Projects from './components/projects'
 import ContactMe from './components/contactme'
 import Footer from './components/footer'
+import './App.css'
 
 
 class App extends Component{
-  constructor(props){
-    super(props)
-    this.state = {
-    }
-  }
 
   render(){
     return(
@@ -25,8 +21,8 @@ class App extends Component{
       <NavBar />
       <Home />
       <AboutMe />
-      <Experience />
       <TechnicalSkills />
+      <Experience />
       <Projects />
       <ContactMe />
       <Footer />

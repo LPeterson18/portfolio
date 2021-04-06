@@ -1,12 +1,7 @@
 import React, { Component } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col, Image } from  'react-bootstrap'
 import Profile from '../pictures/p1.JPG'
 import './home.css'
-
-
 
 class Home extends Component{
 
@@ -16,10 +11,10 @@ class Home extends Component{
       <>
       <div className='homestyle'>
       <Container>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-sm-center">
           <h1 className='name'>Lex Peterson</h1>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-sm-center">
           <h2 className='title'>Full Stack Developer</h2>
         </Row>
       </Container>
