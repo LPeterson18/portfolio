@@ -21,6 +21,7 @@ class Projects extends Component{
       <Row className="justify-content-sm-center">
         <h1>Projects</h1>
       </Row>
+      <br></br>
         <Row className="justify-content-lg-center">
           <Col sm={4} md={{ offset: 2 }}>
             <ListGroup>

@@ -37,6 +37,7 @@ class TechnicalSkills extends Component{
             <Row>Figma</Row>
           </Col>
         </Row>
+        <br></br>
       </Container>
       </section>
       </>

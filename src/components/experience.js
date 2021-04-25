@@ -42,6 +42,7 @@ class Experience extends Component{
         <Row className='justify-content-sm-center'>
           <a href='https://github.com/LPeterson18/resume/raw/main/Alexander_Peterson_Resume.pdf'>Download</a>
         </Row>
+        <br></br>
       </Container>
       </div>
       </section>
