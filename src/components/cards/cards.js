@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Card, Button, Image } from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap'
 
 import TicTac from '../../pictures/tictactoeimage.png'
 

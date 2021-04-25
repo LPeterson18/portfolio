@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
-import Profile from '../pictures/p1.JPG'
+import { Container, Row } from 'react-bootstrap'
 import './experience.css'
 import { Document, Page, pdfjs} from 'react-pdf';
 
@@ -43,6 +42,7 @@ class Experience extends Component{
         <Row className='justify-content-sm-center'>
           <a href='https://github.com/LPeterson18/resume/raw/main/Alexander_Peterson_Resume.pdf'>Download</a>
         </Row>
+        <br></br>
       </Container>
       </div>
       </section>

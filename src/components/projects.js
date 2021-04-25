@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, ListGroup, Tab, Tabs, TabContainer, TabContent, TabPane} from 'react-bootstrap'
+import { Container, Row, Col, ListGroup, Tab } from 'react-bootstrap'
 import './projects.css'
 import Cards from './cards/cards'
 import Cards2 from './cards/cards2'
@@ -21,23 +21,24 @@ class Projects extends Component{
       <Row className="justify-content-sm-center">
         <h1>Projects</h1>
       </Row>
+      <br></br>
         <Row className="justify-content-lg-center">
           <Col sm={4} md={{ offset: 2 }}>
             <ListGroup>
             <ListGroup.Item>Select A Project</ListGroup.Item>
-              <ListGroup.Item action variant="dark" action href="#link1">
+              <ListGroup.Item action variant="dark" href="#link1">
                 Jungle Cat Tic-Tac-Toe
               </ListGroup.Item>
-              <ListGroup.Item action variant="dark" action href="#link2">
+              <ListGroup.Item action variant="dark" href="#link2">
                 Pig Latin Translator
               </ListGroup.Item>
-              <ListGroup.Item action variant="dark" action href="#link3">
+              <ListGroup.Item action variant="dark" href="#link3">
                 Blog App
               </ListGroup.Item>
-              <ListGroup.Item action variant="dark" action href="#link4">
+              <ListGroup.Item action variant="dark" href="#link4">
                 Wildlife Tracker
               </ListGroup.Item>
-              <ListGroup.Item action variant="dark" action href="#link5">
+              <ListGroup.Item action variant="dark" href="#link5">
                 Cat Tinder
               </ListGroup.Item>
             </ListGroup>

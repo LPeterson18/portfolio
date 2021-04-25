@@ -16,9 +16,10 @@ class ContactMe extends Component{
       <br></br>
       <Container sm="6" lg="10">
       <div className="contactmebox">
+      <br></br>
         <Row className="justify-content-sm-center">
         <Col xs lg="8">
-        <h1 style={{ color:'#FFFFFF' }}>Contact Me:</h1>
+        <h1>Contact Me:</h1>
         <Form>
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
@@ -42,6 +43,7 @@ class ContactMe extends Component{
         </Form>
         </Col>
         </Row>
+        <br></br>
       </div>
       </Container>
       </section>
