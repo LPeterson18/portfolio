@@ -27,6 +27,7 @@ class ContactMe extends Component{
           data-netlify="true" 
           onSubmit="submit"
         >
+          <input type="hidden" name="form-name" value="contact v1" />
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" name="name" placeholder="Enter name" />
