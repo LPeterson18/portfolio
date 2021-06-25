@@ -1,23 +1,24 @@
 import React, { Component } from 'react'
 import { Card, Button } from 'react-bootstrap'
-import CatTinder from '../../pictures/cattindergif.gif'
+
+import TicTac from '../../pictures/apartmentimage.png'
 
 
-class Cards5 extends Component{
+class Cards extends Component{
 
 
   render(){
     return(
       <>
-      <section id="#link2">
-      <Card style={{ width: '22rem' }}>
-        <Card.Img variant="top" src={CatTinder} />
+      <section id="#link5">
+      <Card>
+        <Card.Img variant="top" src={TicTac} />
         <Card.Body>
           <Card.Title>React|JavaScript|HTML|CSS|Ruby|Rails</Card.Title>
           <Card.Text>
-            Full stack, decoupled web app with React front end and Rails backend. Look at, create, and update cat profiles.
+            Full stack, apartment listing website with React frontend and rails backend. View existing apartments and create account to add, edit, and delete your own.
           </Card.Text>
-          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18/apartment-app-LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>
@@ -25,4 +26,4 @@ class Cards5 extends Component{
     )
   }
 }
-export default Cards5;
+export default Cards;

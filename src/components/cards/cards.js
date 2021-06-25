@@ -11,14 +11,14 @@ class Cards extends Component{
     return(
       <>
       <section id="#link1">
-      <Card style={{ width: '22rem' }}>
+      <Card>
         <Card.Img variant="top" src={TicTac} />
         <Card.Body>
           <Card.Title>React|JavaScript|HTML|CSS</Card.Title>
           <Card.Text>
             A jungle cat themed Tic-Tac-Toe game made using React.
           </Card.Text>
-          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18/tic-tac-toe'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>

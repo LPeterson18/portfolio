@@ -1,23 +1,24 @@
 import React, { Component } from 'react'
 import { Card, Button } from 'react-bootstrap'
-import Wildlife from '../../pictures/wildlifetrackerimage.png'
+import CatTinder from '../../pictures/cattindergif.gif'
 
 
-class Cards4 extends Component{
+class Cards5 extends Component{
 
 
   render(){
     return(
       <>
-      <section id="#link2">
-      <Card style={{ width: '22rem' }}>
-        <Card.Img variant="top" src={Wildlife} />
+      <section id="#link4">
+      <Card>
+        <Card.Img variant="top" src={CatTinder} />
         <Card.Body>
-          <Card.Title>Ruby|Rails</Card.Title>
+          <Card.Title>React|JavaScript|HTML|CSS|Ruby|Rails</Card.Title>
           <Card.Text>
-            API allowing full CRUD functionality on a database containing animal characteristics and sightings.
+            Full stack, decoupled web app with React front end and Rails backend. Look at, create, and update cat profiles.
           </Card.Text>
-          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18/cat-tinder-frontend'>Check out frontend!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18/cat-tinder-backend'>Check out backend!</Button>
         </Card.Body>
       </Card>
       </section>
@@ -25,4 +26,4 @@ class Cards4 extends Component{
     )
   }
 }
-export default Cards4;
+export default Cards5;

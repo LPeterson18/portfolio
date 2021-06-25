@@ -11,6 +11,7 @@ class ContactMe extends Component{
     return(
       <>
       <section id="contactme">
+      <div className="contactBackground">
       <br></br>
       <br></br>
       <br></br>
@@ -46,6 +47,8 @@ class ContactMe extends Component{
         <br></br>
       </div>
       </Container>
+      <br></br>
+      </div>
       </section>
       </>
     )
