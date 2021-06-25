@@ -21,10 +21,10 @@ class ContactMe extends Component{
         <Row className="justify-content-sm-center">
         <Col xs lg="8">
         <h1>Contact Me:</h1>
-        <Form>
+        <Form method="POST" data-netlify="true">
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="name" placeholder="Enter name" />
+            <Form.Control type="name" name="name" placeholder="Enter name" />
             <Form.Text className="text-muted">
               We'll never share your email with anyone else.
             </Form.Text>
@@ -32,11 +32,11 @@ class ContactMe extends Component{
 
           <Form.Group controlId="formBasicPassword">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Email" />
+            <Form.Control type="email" name="email" placeholder="Email" />
           </Form.Group>
           <Form.Group controlId="formBasicTextbox">
             <Form.Label>Leave me a message!</Form.Label>
-            <Form.Control as="textarea" rows={3} />
+            <Form.Control as="textarea" name="message" rows={3} />
           </Form.Group>
           <Button variant="primary" type="submit">
             Submit
