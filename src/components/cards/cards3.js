@@ -1,23 +1,23 @@
 import React, { Component } from 'react'
 import { Card, Button } from 'react-bootstrap'
-import Blog from '../../pictures/blogappimage.png'
+import Wildlife from '../../pictures/wildlifetrackerimage.png'
 
 
-class Cards3 extends Component{
+class Cards4 extends Component{
 
 
   render(){
     return(
       <>
-      <section id="#link2">
-      <Card style={{ width: '22rem' }}>
-        <Card.Img variant="top" src={Blog} />
+      <section id="#link3">
+      <Card>
+        <Card.Img variant="top" src={Wildlife} />
         <Card.Body>
-          <Card.Title>Ruby|Rails|HTML</Card.Title>
+          <Card.Title>Ruby|Rails</Card.Title>
           <Card.Text>
-            Full stack blogging web app with full CRUD functionality. Users can create new blog posts and read, update, and delete old posts.
+            API allowing full CRUD functionality on a database containing animal characteristics and sightings.
           </Card.Text>
-          <Button variant="dark" href='https://github.com/LPeterson18'>Check it out!</Button>
+          <Button variant="dark" href='https://github.com/LPeterson18/wildlife-tracker-LPeterson18'>Check it out!</Button>
         </Card.Body>
       </Card>
       </section>
@@ -25,4 +25,4 @@ class Cards3 extends Component{
     )
   }
 }
-export default Cards3;
+export default Cards4;

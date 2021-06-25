@@ -6,6 +6,7 @@ import Cards2 from './cards/cards2'
 import Cards3 from './cards/cards3'
 import Cards4 from './cards/cards4'
 import Cards5 from './cards/cards5'
+import Cards6 from './cards/cards6'
 
 class Projects extends Component{
 
@@ -22,8 +23,8 @@ class Projects extends Component{
         <h1>Projects</h1>
       </Row>
       <br></br>
-        <Row className="justify-content-lg-center">
-          <Col sm={4} md={{ offset: 2 }}>
+        <Row className="justify-content-center">
+          <Col sm={4} >
             <ListGroup>
             <ListGroup.Item>Select A Project</ListGroup.Item>
               <ListGroup.Item action variant="dark" href="#link1">
@@ -33,17 +34,20 @@ class Projects extends Component{
                 Pig Latin Translator
               </ListGroup.Item>
               <ListGroup.Item action variant="dark" href="#link3">
-                Blog App
-              </ListGroup.Item>
-              <ListGroup.Item action variant="dark" href="#link4">
                 Wildlife Tracker
               </ListGroup.Item>
-              <ListGroup.Item action variant="dark" href="#link5">
+              <ListGroup.Item action variant="dark" href="#link4">
                 Cat Tinder
+              </ListGroup.Item>
+              <ListGroup.Item action variant="dark" href="#link5">
+                Apartment App
+              </ListGroup.Item>
+              <ListGroup.Item action variant="dark" href="#link6">
+                Pokedeck
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col sm={6}>
+          <Col sm={2} md={4}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <Cards />
@@ -60,11 +64,16 @@ class Projects extends Component{
               <Tab.Pane eventKey="#link5">
                 <Cards5 />
               </Tab.Pane>
+              <Tab.Pane eventKey="#link6">
+              <Cards6 />
+            </Tab.Pane>
             </Tab.Content>
           </Col>
         </Row>
       </Tab.Container>
       </Container>
+      <br></br>
+      <br></br>
       </section>
       </>
     )

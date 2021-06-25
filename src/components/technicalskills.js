@@ -21,20 +21,23 @@ class TechnicalSkills extends Component{
             <Row>SQL</Row>
             <Row>HTML</Row>
             <Row>CSS</Row>
+            <Row>TypeScript</Row>
           </Col>
           <Col sm={{span:3}}>
             <Row style={{fontWeight:"bold", textDecoration:'underline'}}>Frameworks</Row>
             <Row>React</Row>
             <Row>Ruby on Rails</Row>
             <Row>Bootstrap</Row>
+            <Row>Express.js</Row>
           </Col>
           <Col sm={{span:3}}>
             <Row style={{fontWeight:"bold", textDecoration:'underline'}}>Miscellaneous</Row>
-            <Row>PostreSQL</Row>
+            <Row>PostgreSQL</Row>
             <Row>Jest</Row>
             <Row>Rspec</Row>
             <Row>Git</Row>
             <Row>Figma</Row>
+            <Row>CouchDB</Row>
           </Col>
         </Row>
         <br></br>
