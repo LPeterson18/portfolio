@@ -21,8 +21,12 @@ class ContactMe extends Component{
         <Row className="justify-content-sm-center">
         <Col xs lg="8">
         <h1>Contact Me:</h1>
-        <Form name="contact v1" method="POST" data-netlify="true" onSubmit="submit">
-          <input type="hidden" name="form-name" value="contact v1" />
+        <Form 
+          name="contact v1"
+          method="post"
+          data-netlify="true" 
+          onSubmit="submit"
+        >
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" name="name" placeholder="Enter name" />
